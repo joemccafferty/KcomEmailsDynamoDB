@@ -1,0 +1,22 @@
+{
+  "Records": [
+      {
+          "EventSource": "aws:sns",
+          "EventVersion": "1.0",
+          "EventSubscriptionArn": "arn:aws:sns:eu-west-2:459180330343:feedtheanimals-co-uk-send-stats:b31fc79f-58b9-42ef-9f07-6943fbe4591f",
+          "Sns": {
+              "Type": "Notification",
+              "MessageId": "0f003333-76ed-51ba-ad27-6edba8cdf29a",
+              "TopicArn": "arn:aws:sns:eu-west-2:459180330343:feedtheanimals-co-uk-send-stats",
+              "Subject": "Amazon SES Email Event Notification",
+              "Message": "{\"eventType\":\"Send\",\"mail\":{\"timestamp\":\"2023-12-05T08:14:23.877Z\",\"source\":\"kcom.billing@mail.feedtheanimals.co.uk\",\"sourceArn\":\"arn:aws:ses:eu-west-2:459180330343:identity/feedtheanimals.co.uk\",\"sendingAccountId\":\"459180330343\",\"messageId\":\"010b018c390ae285-483a3648-e4ab-48e4-bda9-bc905686956e-000000\",\"destination\":[\"joe.mccafferty@wearepropack.co.uk\"],\"headersTruncated\":false,\"headers\":[{\"name\":\"Content-Type\",\"value\":\"multipart/mixed; boundary=\\\"===============6543672625137029300==\\\"\"},{\"name\":\"MIME-Version\",\"value\":\"1.0\"},{\"name\":\"Subject\",\"value\":\"Your latest invoice from KCOM\"},{\"name\":\"From\",\"value\":\"KCOM Billing <kcom.billing@mail.feedtheanimals.co.uk>\"},{\"name\":\"To\",\"value\":\"joe.mccafferty@wearepropack.co.uk\"},{\"name\":\"X-SES-CONFIGURATION-SET\",\"value\":\"feedtheanimals-co-uk-config-set\"},{\"name\":\"X-SES-MESSAGE-TAGS-SenderName\",\"value\":\"KCOM Billing\"},{\"name\":\"X-SES-MESSAGE-TAGS-AccountNumber\",\"value\":\"12345\"}],\"commonHeaders\":{\"from\":[\"KCOM Billing <kcom.billing@mail.feedtheanimals.co.uk>\"],\"to\":[\"joe.mccafferty@wearepropack.co.uk\"],\"messageId\":\"010b018c390ae285-483a3648-e4ab-48e4-bda9-bc905686956e-000000\",\"subject\":\"Your latest invoice from KCOM\"},\"tags\":{\"ses:source-tls-version\":[\"TLSv1.3\"],\"ses:operation\":[\"SendRawEmail\"],\"ses:configuration-set\":[\"feedtheanimals-co-uk-config-set\"],\"ses:source-ip\":[\"45.82.140.65\"],\"ses:from-domain\":[\"mail.feedtheanimals.co.uk\"],\"ses:caller-identity\":[\"feedtheanimals-ses-email-user\"]}},\"send\":{}}\n",
+              "Timestamp": "2023-12-05T08:14:24.152Z",
+              "SignatureVersion": "1",
+              "Signature": "UwCljr9UoSe6SqukITdrQQW7E0WOWtZ1G8hveHrlgzEz4sbCQcm5qHtGwMKMJ5+qT8U5ChIIpEETIvPkcu/mr49Ojud2pLX6Ebf3zQlRWlA36a/L8NTutbph+JRkttnZXmA8V/bOGcHh3p45KclIrWGbRZqMKVa3G2QazSBTr/aAws0sNIWuJ7PfyIQU3kZGrFm+1wvXHnmQQWHgAjSWzHP8B+XazCDPlv6E1mGwU0ojCLzRsWINFqIPQFBfqh6uA4dHY++mCkSSqapAfzy6maoqcpx/pTqRrEUxzXbhoQVYujAAI9bNhqtT0g4eeIr+qLFKlRpra0Y+qGX8CVEbfQ==",
+              "SigningCertUrl": "https://sns.eu-west-2.amazonaws.com/SimpleNotificationService-01d088a6f77103d0fe307c0069e40ed6.pem",
+              "UnsubscribeUrl": "https://sns.eu-west-2.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:eu-west-2:459180330343:feedtheanimals-co-uk-send-stats:b31fc79f-58b9-42ef-9f07-6943fbe4591f",
+              "MessageAttributes": {}
+          }
+      }
+  ]
+}
